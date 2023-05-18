@@ -1,0 +1,18 @@
+.DocumentBody{
+  /* height: 4rem; */
+  font-size: 16px;
+}
+.DocumentBody td{
+  padding: 8px 8px!important;
+}
+/* .DocumentBody span{
+  text-decoration: underline;
+  font-weight: normal;
+} */
+.bold{
+  font-weight: bold;
+}
+.underline{
+  text-decoration: underline;
+  font-weight: normal;
+}

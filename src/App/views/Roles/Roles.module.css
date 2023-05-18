@@ -1,0 +1,30 @@
+.Col {
+  width: 100%;
+}
+
+.Switches {
+  display: flex;
+}
+
+.Legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+}
+
+.Fieldset {
+  background-color: #eeeeee;
+}
+
+.Divider{
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
+
+.CheckboxWrapper {
+  padding-bottom: 20px;
+}
+
+.CheckboxWrapper:last-child {
+  padding-bottom: 0;
+}

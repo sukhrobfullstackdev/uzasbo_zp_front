@@ -1,0 +1,70 @@
+:root {
+  --main-bg-color: #323437;
+  --secondary-bg-color: #212224;
+  --input-border-color: #40a9ff;
+  --main-text-color: hsla(0, 0%, 100%, .8);
+  --odd-table-row-color: #1c1c1c
+}
+
+body.datta-dark {
+  background: #212224;
+}
+
+.datta-dark {
+  
+  .ant-select-clear{
+    background: var(--main-bg-color);
+  }
+  
+  .pcoded-header {
+    background: #323437;
+    color: #adb7be;
+  }
+
+  .pcoded-navbar {
+    background: #323437;
+    box-shadow: 2px 0 20px 0 RGB(0 0 0 / 8%);
+  }
+
+  .navbar-brand,
+  .pcoded-navbar .pcoded-submenu {
+    background: #323437;
+  }
+
+  .navbar-nav .ant-typography {
+    color: hsla(0, 0%, 100%, .8);
+  }
+
+  .page-header-title+.breadcrumb>.breadcrumb-item a,
+  .page-header-title+.breadcrumb>.breadcrumb-item:last-child a {
+    color: hsla(0, 0%, 100%, .8);
+  }
+
+  .card {
+    background: #323437;
+    box-shadow: 0 1px 20px 0 RGB(0 0 0 / 8%);
+  }
+
+  .card .card-header {
+    background-color: transparent;
+    border-bottom: 1px solid #2b2c2f;
+  }
+
+  .card .card-header h5 {
+    color: #9fabb3 !important;
+  }
+
+  text {
+    fill: #adb7be !important;
+  }
+
+  .main-table tr:nth-child(odd),
+  .ant-table-row:nth-child(odd) .ant-table-cell-fix-left,
+  .ant-table-row:nth-child(odd) .ant-table-cell-fix-right {
+    background: var(--odd-table-row-color);
+  }
+
+  .pcoded-navbar a {
+    color: #a9b7d0;
+  }
+}

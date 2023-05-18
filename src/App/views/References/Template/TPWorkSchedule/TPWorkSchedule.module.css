@@ -1,0 +1,6 @@
+.FormElements {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  

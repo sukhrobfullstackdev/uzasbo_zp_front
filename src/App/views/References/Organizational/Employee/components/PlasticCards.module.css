@@ -1,0 +1,108 @@
+.card-top {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center
+}
+
+.card-top p {
+  font-size: .8em
+}
+
+.Base {
+  background: #ccc;
+  height: 140px;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 6px 6px 8px 1px rgb(0 0 0 / 20%);
+}
+
+.Inner-wrap-uzcard {
+  background-color: #0c0014;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%230d1838' points='1600%2C160 0%2C460 0%2C350 1600%2C50'/%3E%3Cpolygon fill='%230e315d' points='1600%2C260 0%2C560 0%2C450 1600%2C150'/%3E%3Cpolygon fill='%230f4981' points='1600%2C360 0%2C660 0%2C550 1600%2C250'/%3E%3Cpolygon fill='%231062a6' points='1600%2C460 0%2C760 0%2C650 1600%2C350'/%3E%3Cpolygon fill='%23117aca' points='1600%2C800 0%2C800 0%2C750 1600%2C450'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: auto 147%;
+  background-position: center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 13px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1em;
+}
+
+.Inner-wrap-humo {
+  background-color: #0c0014;
+  background-image: linear-gradient(341deg, rgb(63, 81, 177) 0%, rgb(90, 85, 174) 13%, rgb(123, 95, 172) 25%, rgb(143, 106, 174) 38%, rgb(168, 106, 164) 50%, rgb(204, 107, 142) 62%, rgb(241, 130, 113) 75%, rgb(243, 164, 105) 87%, rgb(247, 201, 120) 100%);
+  background-size: auto 147%;
+  background-position: center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 13px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1em;
+}
+
+p {
+  margin: 0;
+}
+
+/* Controls chip icon */
+
+.Chip {
+  height: 20px;
+  /* margin: 5px 0 5px 0; */
+}
+
+.card-middle {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.gold path {
+  fill: url(#gold-gradient);
+}
+
+svg {
+  display: block;
+}
+
+/* Controls name size */
+
+.Card-number {
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.9);
+  /* font-size: .8em; */
+}
+
+.Expire {
+  text-align: center;
+}
+
+.Expire p {
+  /* font-size: .7em; */
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.Name h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.85);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 240px;
+  text-align: start;
+}

@@ -1,0 +1,13 @@
+.FormElements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.out-sum {
+  background-color: yellow !important;
+}
+
+.SubcName {
+  min-width: 100px;
+}

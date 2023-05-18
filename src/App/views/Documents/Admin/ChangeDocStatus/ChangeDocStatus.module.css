@@ -1,0 +1,38 @@
+.file {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+}
+.fileInput {
+    margin-bottom: 0;
+    width: 100%;
+}
+.fileInput label {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 48;
+    background: #fff;
+    border: 1px dashed #d9d9d9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #444;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+.fileInput label:hover {
+    border: 1px dashed #1890ff;
+}
+input:hover + label,
+input:focus + label {
+    transform: scale(1.02);
+    border: 1px solid #1890ff;
+}
+input:focus + label {
+    outline: 1px solid #d9d9d9;
+    outline: -webkit-focus-ring-color auto 2px;
+    border: 1px solid #1890ff;
+}

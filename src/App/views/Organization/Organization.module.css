@@ -1,0 +1,91 @@
+.SearchLabel {
+    display: inline-flex;
+    align-items: center;
+    height: 32px;
+    margin-bottom: 8px;
+  }
+  
+  .Buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+      
+  }
+  
+  .AccountsTable .ant-table-cell {
+    background: #cecbcb !important;
+  }
+  
+  .ButtonWrapper {
+    text-align: right;
+  }
+  
+  .ButtonWrapper button {
+    margin-bottom: 20px;
+  }
+  .table{
+    background-color: white;
+  }
+  .input_id{
+    padding: 15px 25px 1px 15px;
+    /* padding-left: 15px; */
+  }
+  .Button_color{
+    background-color: white;
+    padding: 15px 15px 15px 835px;
+    
+  }
+  .meta{
+    position: absolute;
+    bottom: 84px;
+    left: 30px;
+    color: rgb(19, 19, 19);
+   }
+   
+   .Bank  {
+    padding: 25px;
+    padding-top: 10px;
+    box-shadow: none; 
+    border: none;
+}
+  /* .BankAdd{
+    width: auto; 
+    background-color:#1890FF; 
+    color:white; 
+    padding: 4px 8px;
+    float:right;
+    margin:0px 10px 10px 0px; 
+    border-radius:2px;
+  } */
+  /* .OrganizationSearchAdd{
+    padding:0px 15px;
+  } */
+.container{
+
+  padding: 10px;
+  background: white;
+  box-shadow: 0 1px 20px 0 rgb(69 90 100 / 8%);
+}
+
+.OrganizationSearch{
+  margin: 0 10px 10px 10px; 
+  width: auto;
+}
+.OrganizationEdit{
+  padding: 20px;
+}
+.short_name{
+  display: flex;
+  width: 100% ;
+}
+.short_name_button{
+color: white;
+width: 18%;
+}
+.filter{
+  width: 90%;
+  display: -webkit-box;
+}
+.table_nav{
+  display:flex;
+}

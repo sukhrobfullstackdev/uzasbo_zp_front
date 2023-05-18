@@ -1,0 +1,63 @@
+.FormElements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.FilterWrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.year-input {
+  width: 100%;
+}
+
+.buttons {
+  width: auto;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 20px;
+  /* margin: 20px 0; */
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.ant-table-wrapper {
+  clear: both;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.tableForm .ant-table-body{
+  overflow: none;
+  max-height: 100vh;
+}
+.bold{
+  font-weight: 700;
+  color: #1890ff;
+}
+.FilterForm div.ant-picker.ant-picker-disabled, input, select, textarea{
+  /* background-color: transparent!important; */
+  color: rgb(80, 80, 80) !important;
+}
+.orgInfo{
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(39, 65, 120, 0.9);
+  padding: 8px 6px;
+  cursor: pointer;
+  display: flex;
+}
+.orgInfo:nth-child(even){
+  background-color:rgb(241, 251, 255);
+}
+.key{
+  /* flex: 0.8; */
+  font-weight: normal;
+}
+.value{
+  /* flex: 0.2; */
+  margin-left: 8px;
+}

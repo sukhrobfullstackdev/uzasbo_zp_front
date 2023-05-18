@@ -1,0 +1,19 @@
+.FilterForm {
+    width: 100%;
+}
+
+.FormElements {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.DeleteBtn {
+    padding: 0;
+    border: unset;
+    background-color: unset !important;
+}
+
+.editable th,td {
+    padding: 8px !important;
+}

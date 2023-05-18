@@ -1,0 +1,14 @@
+.FilterForm {
+  width: 100%;
+}
+.FormElements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.DeleteBtn{
+  padding: 0;
+  border: unset;
+  background-color: unset !important;
+}

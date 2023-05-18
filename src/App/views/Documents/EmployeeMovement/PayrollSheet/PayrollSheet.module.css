@@ -1,0 +1,63 @@
+.FormElements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.Checkbox{
+  display: flex;
+}
+
+.EmployeeStateModal{
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.year-input {
+  width: 100%;
+}
+.add-buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.table-filter-form .ant-form-item {
+  margin-bottom: 0;
+}
+
+.buttons {
+  width: auto;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 20px;
+  /* margin: 20px 0; */
+  /* margin-bottom: 20px; */
+}
+
+.filterData{
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  gap: 20px;
+}
+.org-table {
+  height: calc(28vh - 64px);
+}
+.EmployeeStateModal{
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}

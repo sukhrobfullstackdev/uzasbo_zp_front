@@ -1,0 +1,13 @@
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.valid-person-icon {
+  font-size: 20px;
+  color: #56c427;
+}
+
+.invalid-person-icon {
+  font-size: 20px;
+  color: #ff9800;
+}
